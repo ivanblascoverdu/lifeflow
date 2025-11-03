@@ -1,0 +1,40 @@
+{
+  "name": "lifeflow-backend",
+  "version": "1.0.0",
+  "description": "Backend API for LifeFlow - Personal Productivity & Habits Management",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "node dist/migrations/run.js",
+    "seed": "node dist/seeds/run.js",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": ["productivity", "habits", "goals", "time-tracking"],
+  "author": "Ivan Blasco",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "socket.io": "^4.7.2",
+    "date-fns": "^2.30.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/bcryptjs": "^2.4.6",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.0.2",
+    "@types/pg": "^8.10.9"
+  }
+}
