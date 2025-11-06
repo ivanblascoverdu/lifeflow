@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LifeFlow - Gestión Personal y Productividad
 
 Aplicación integral para gestión de hábitos, objetivos y tiempo personal.
@@ -59,3 +60,6 @@ text
 ## 📝 Licencia
 
 MIT - Ivan Blasco
+=======
+# lifeflow
+>>>>>>> e0078cc29cd927b96d7e915f0aff8ef8fe61a2a9
